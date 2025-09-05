@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Variable using const</title>
+</head>
+<body>
+     <h1>Object Variable using const</h1>
+
+         <p id="appli"></p>
+         <p id="applic"></p>
+
+         <script>
+             const applicant = {eyes:"brown", hair:"black", weight:"170"};
+
+             applicant.weight = "157";
+
+             applicant.name = "Marco";
+
+            document.getElementById("appli").innerHTML = "The applicant is " + applicant.name; 
+            document.getElementById("applic").innerHTML = "The applicant's weight is " + applicant.weight;
+        </script>
+</body>
+</html>
